@@ -66,7 +66,7 @@
 // Minimum* (fastest goto) is around 16, default=96 higher is ok
 // * = Minimum can be lower, when both AXIS1/AXIS2_MICROSTEPS are used the compiler
 // will warn you if it is too low
-#define MaxRate                    96
+#define MaxRate                    144
 
 // Axis1 is for RA/Az
 // Calculated as (example for Losmandy G11)
